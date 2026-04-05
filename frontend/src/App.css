@@ -1,0 +1,6 @@
+/* Kept intentionally minimal.
+   Main styles live in src/components/*.css */
+
+.App {
+  min-height: 100vh;
+}
