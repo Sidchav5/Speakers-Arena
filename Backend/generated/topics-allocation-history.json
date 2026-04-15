@@ -1,22 +1,4 @@
 {
-  "allocatedByFile": {
-    "Topics.xlsx": [
-      20,
-      15
-    ]
-  },
-  "allocationLog": [
-    {
-      "fileName": "Topics.xlsx",
-      "id": 20,
-      "topicName": "20.   Tourism does more harm than good to local cultures.👍R",
-      "allocatedAt": "2026-04-05T08:42:22.736Z"
-    },
-    {
-      "fileName": "Topics.xlsx",
-      "id": 15,
-      "topicName": "15.   Social Media for children should be banned.👍",
-      "allocatedAt": "2026-04-05T08:46:14.152Z"
-    }
-  ]
+  "allocatedByFile": {},
+  "allocationLog": []
 }
