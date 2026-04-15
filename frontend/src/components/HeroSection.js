@@ -1,5 +1,13 @@
 // src/components/HeroSection.js
 import React, { useCallback, useEffect, useRef, useState } from 'react';
+import myImage1 from './1.Group Formation.png';
+import myImage2 from './2.Randomizer.png';
+import myImage3 from './3.documents.avif';
+import myImage4 from './4.Final_Logo.jpg';
+import myImage5 from './5.Vision.jpg';
+import myImage6 from './6.event structure.jpg';
+import myImage7 from './7.learning outcomes.png';
+import myImage8 from './8.prize pool.jpg';
 import Navbar from './Navbar';
 import './HeroSection.css';
 
@@ -13,14 +21,14 @@ function HeroSection() {
     {
       title: 'Brief Description: Speaker\'s Club',
       body: 'Student-driven platform at VIT Pune for public speaking, communication, and critical thinking.',
-      image: 'https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1200&q=80',
+      image: myImage4 ,
       id: 'club-carousel',
       gradient: 'green'
     },
     {
       title: 'Club Platform and Vision',
       body: 'Build confident speakers, thoughtful listeners, and leaders through workshops, competitions, and peer learning.',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+      image: myImage5,
       gradient: 'gold'
     },
     {
@@ -33,19 +41,19 @@ function HeroSection() {
     {
       title: 'Event Structure',
       body: 'Prepared Speaking, Extempore, and Debate rounds evaluate clarity, confidence, logic, and delivery.',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80',
+      image:myImage6,
       gradient: 'green'
     },
     {
       title: 'Learning Outcomes',
       body: 'Participants improve stage presence, speaking clarity, listening skills, and analytical thinking.',
-      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
+      image: myImage7,
       gradient: 'gold'
     },
     {
       title: 'Prize Pool',
       body: 'Total prize pool of Rs. 6500 with exciting rewards, recognition, and certificates.',
-      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=900&q=80',
+      image: myImage8,
       gradient: 'black'
     },
   ];
@@ -263,7 +271,7 @@ function HeroSection() {
           <div className="services-horizontal-row" id="outcomes">
             <div className="card service-card" style={{ width: '18rem' }}>
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+                src={myImage1}
                 className="card-img-top service-image"
                 alt="Create groups"
                 loading="lazy"
@@ -277,7 +285,7 @@ function HeroSection() {
 
             <div className="card service-card" style={{ width: '18rem' }}>
               <img
-                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80"
+                src={myImage2}
                 className="card-img-top service-image"
                 alt="Allocate topics"
                 loading="lazy"
@@ -291,7 +299,7 @@ function HeroSection() {
 
             <div className="card service-card" style={{ width: '18rem' }}>
               <img
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
+                src={myImage3}
                 className="card-img-top service-image"
                 alt="Important documents"
                 loading="lazy"
